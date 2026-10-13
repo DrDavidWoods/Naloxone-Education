@@ -18,3 +18,7 @@ Educational adult scenario only, not a clinical decision aid, certification, or 
 
 ## Sources linked in app
 CDC naloxone guidance, AHA adult BLS and opioid-related resuscitation guidance, and FDA NARCAN labeling.
+
+### Artwork version
+
+The original airway illustration and the original three-step nasal naloxone device illustrations are retained. The application continues with a single general staff learning pathway (no nurse/aide selection).
