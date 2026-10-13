@@ -26,7 +26,8 @@ This is a static app; no server or database is needed. Once hosted, GitHub Pages
 - Eight decisions in a continuous clinical scenario
 - Instant rationale and feedback after every decision
 - Practice mastery scoring (all eight safety-critical decisions must be correct) with remediation of missed steps
-- Four short lessons, recognition mini-challenge, and device-sequencing practice
+- Four illustrated lessons with interactive breathing visual, emergency team-response map, three-step naloxone device diagrams linked to the sequencing drill, and breathing-recurrence scenario
+- Recognition mini-challenge and device-sequencing practice
 - Quick-reference notes with source URLs
 - Print-to-PDF completion summary, locally generated CSV results
 - No trackers, external scripts, analytics, network calls, or transmitted learner information
