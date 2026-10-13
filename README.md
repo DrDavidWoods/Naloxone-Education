@@ -1,56 +1,20 @@
-# RESPOND — Naloxone & Opioid Overdose Recognition
+# RESPOND — Guided Naloxone Response Training
 
-An offline-capable single-file browser learning game for **public health nurses and aides**.
+Mobile-friendly, self-contained training for public health nurses and aides.
 
-## Run locally
+## Course flow
+1. Choose nurse or aide on the home screen.
+2. Work through four guided illustrated lessons. Each has **Learn → Try → Check** steps and advances only when the activity or question is completed.
+3. After all four lessons, start the eight-decision simulation and review feedback.
+4. Print a practice summary or export your own simulation results to CSV.
 
-1. Download `index.html`.
-2. Open it in Chrome, Safari, Edge, or Firefox. No install, account, or network connection needed after download.
-3. Choose **Nurse** or **Aide**, select **Start the simulation**, and make eight decisions.
+Lesson progress is saved in the current browser's local storage (when supported). Staff names and results are not uploaded or centrally collected. Reopening in another browser or private mode may start a new session. The simulation score is not persisted.
 
-On iOS, the easiest use is to host the site and open it in Safari. The standalone HTML file can also be saved and opened with a compatible local-file browser/viewer, though iOS local-file behavior varies.
+## Open / host
+Open `index.html` in a modern browser or publish that file using GitHub Pages. Everything needed for the guided course and diagrams is embedded in the HTML, so the course can also run offline.
 
-## Host using GitHub Pages
+## Safety and review
+Educational adult scenario only, not a clinical decision aid, certification, or validated competency evaluation. Follow 911 dispatch, current BLS training, the actual naloxone label, and your department protocol. Obtain pharmacist/nursing/medical-director review and supervised hands-on validation before staff deployment.
 
-1. Create a new repository, for example `naloxone-response-training`.
-2. Upload `index.html` to the repository root (you can upload this README too).
-3. In **Settings → Pages**, choose **Deploy from a branch**, `main`, `/ (root)`, and save.
-4. Visit the Pages URL shown by GitHub after deployment.
-
-This is a static app; no server or database is needed. Once hosted, GitHub Pages loads from the internet. The downloaded HTML works offline independently; this release does **not** include an offline service worker for hosted use.
-
-## Features
-
-- Accessible, responsive mobile / desktop layouts
-- Nurse and aide pathways, including appropriately different resuscitation decision points
-- Eight decisions in a continuous clinical scenario
-- Instant rationale and feedback after every decision
-- Practice mastery scoring (all eight safety-critical decisions must be correct) with remediation of missed steps
-- Four illustrated lessons with interactive breathing visual, emergency team-response map, three-step naloxone device diagrams linked to the sequencing drill, and breathing-recurrence scenario
-- Recognition mini-challenge and device-sequencing practice
-- Quick-reference notes with source URLs
-- Print-to-PDF completion summary, locally generated CSV results
-- No trackers, external scripts, analytics, network calls, or transmitted learner information
-- No data is stored between page loads; **CSV / print are optional and user initiated**
-
-## Clinical sources
-
-- CDC: https://www.cdc.gov/overdose-prevention/reversing-overdose/about-naloxone.html
-- AHA 2025 BLS: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support
-- AHA 2025 special circumstances: https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation
-- FDA 2026 4 mg NARCAN labeling: https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/208411Orig1s010lbl.pdf
-
-Reviewed against sources in **October 2026**. Source material or local protocols may subsequently change.
-
-## Safety / deployment review
-
-**Educational prototype, not a real-time medical decision-support device, accreditation, CPR/BLS certification, or substitute for in-person clinical skills validation.**
-
-The scenario involves an adult; pediatric response can differ. Review with your medical director, nurse educator, pharmacy leadership and local standing orders before deploying for mandatory employee competency. Some actions, including aid-level interventions, depend on training and departmental authorization. Keep actual naloxone product-specific instructions available. The game uses simulated case milestones, not real timers or guaranteed patient response outcomes.
-
-The app does not capture verifiable staff identities or centrally log completions. For audited training you would need to incorporate it into an authenticated learning management system or backend. The printable summary and CSV are *self-reported learner outputs*, not tamper-resistant compliance records.
-
-## Project structure
-
-- `index.html` — the entire interactive app (HTML, CSS, JavaScript)
-- `README.md` — run, hosting, clinical and privacy notes
+## Sources linked in app
+CDC naloxone guidance, AHA adult BLS and opioid-related resuscitation guidance, and FDA NARCAN labeling.
