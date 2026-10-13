@@ -1,24 +1,17 @@
-# RESPOND — Guided Naloxone Response Training
+# RESPOND — Naloxone & Opioid Overdose Recognition
 
-Mobile-friendly, self-contained training for public health nurses and aides.
+A standalone, offline-capable interactive public-health staff training web app.
 
-## Course flow
-1. Choose nurse or aide on the home screen.
-2. Work through four guided illustrated lessons. Each has **Learn → Try → Check** steps and advances only when the activity or question is completed.
-3. After all four lessons, start the eight-decision simulation and review feedback.
-4. Print a practice summary or export your own simulation results to CSV.
+## How to run
 
-Lesson progress is saved in the current browser's local storage (when supported). Staff names and results are not uploaded or centrally collected. Reopening in another browser or private mode may start a new session. The simulation score is not persisted.
+- Open `index.html` in a browser to use locally.
+- For GitHub Pages, upload `index.html` to the root of a repository, enable GitHub Pages in Settings → Pages, and publish from the branch root.
+- No server, dependencies, sign-in or external data connection are required.
 
-## Open / host
-Open `index.html` in a modern browser or publish that file using GitHub Pages. Everything needed for the guided course and diagrams is embedded in the HTML, so the course can also run offline.
+## Learning flow
 
-## Safety and review
-Educational adult scenario only, not a clinical decision aid, certification, or validated competency evaluation. Follow 911 dispatch, current BLS training, the actual naloxone label, and your department protocol. Obtain pharmacist/nursing/medical-director review and supervised hands-on validation before staff deployment.
+Start Guided Training → Learn → Try → Check for each of four lessons → 8-decision simulation → printable summary / CSV export. Progress is saved only in the current browser (if localStorage is available). No staff data is uploaded automatically.
 
-## Sources linked in app
-CDC naloxone guidance, AHA adult BLS and opioid-related resuscitation guidance, and FDA NARCAN labeling.
+## Scope
 
-### Artwork version
-
-The original airway illustration and the original three-step nasal naloxone device illustrations are retained. The application continues with a single general staff learning pathway (no nurse/aide selection).
+Training prototype only. It is not a BLS/CPR or naloxone skill certification. Have your department's medical leadership review the content and align it with local protocols, device labeling, and the staff's scope of training before formal deployment.
